@@ -3,9 +3,9 @@ from customtkinter import *
 window = CTk()
 window.geometry("500x500")
 window.title("Calcurator")
-
+print("hhhhhhhhh")
 entry = CTkEntry(window, width=150)
-entry.grid(column=1, row=0, columnspan=3, padx=5, pady=5)
+entry.grid(column=1, row=0, columnspan=3, padx=5, pady=7)
 def add_1():
     entry.insert("end", 1)
 
